@@ -22,7 +22,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ClassicLiquidCrystal.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="examples\AllChars.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="examples\CustomCharacter.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="examples\CustomClock.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PCF8574LiquidCrystal.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PiLiquidCrystal.py" />

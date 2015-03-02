@@ -1,7 +1,7 @@
-import PiLiquidCrystal
+import ClassicLiquidCrystal
 import RPi.GPIO as GPIO
 
-lcd = PiLiquidCrystal.LiquidCrystal()
+lcd = ClassicLiquidCrystal.ClassicLiquidCrystal()
 
 trueChar = (
   0,
@@ -33,7 +33,7 @@ lcd.createChar(4, falseChar)
 lcd.setCursor(0, 0)
 lcd.message("This sentence is ")
 lcd.write(4)
-lcd.message("! TTT \n")
+lcd.message("!\n")
 lcd.setCursor(0, 1)
 lcd.message("Uh... ")
 lcd.write(3)
